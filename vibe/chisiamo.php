@@ -28,8 +28,8 @@
 		background-color: #000000;
 	}
 	
-	#dunno{
-		background-color: #FFFFFF;
+	#insegnanti{
+		width: 80%;
 	}
 	
 	#info{
@@ -74,6 +74,14 @@
 		.nav-item{
 			font-size: 2rem;
 		}
+	
+		#insegnanti{
+			width: 100%;
+		}
+		
+		.card{
+			width: 100%;
+		}
 	}
 		
 </style>
@@ -111,7 +119,7 @@
 	
 	<!-- Insegnanti --> 
 	
-	<div class="container" align="center">
+	<div id="insegnanti" class="container-fluid" align="center">
       <div class="card mb-3" align="left">
         <div class="row g-0">
 			
