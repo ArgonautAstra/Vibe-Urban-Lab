@@ -81,17 +81,6 @@
 			<li class="nav-item"> <a class="nav-link" href="#" style="color: white;">Store</a></li>
 			<li class="nav-item"> <a class="nav-link" href="booking.php" style="color: white;">Booking</a></li>
 			<li class="nav-item"> <a class="nav-link" href="contatti.php" style="color: white;">Contatti</a></li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-					Dropdown 
-				</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-			</li>
 		  </ul>
 		</div>  
 	  </div>
@@ -100,7 +89,7 @@
 	<!-- Logo --> 
 	
 	<div id="logo" class="container-fluid" align="center">
-		<img src="../img/vibe.svg" width="35%">
+		<img src="../img/vibe.png" width="35%">
 	</div>
 	
 	<!-- Store --> 

@@ -25,7 +25,10 @@
 	}
 	
 	#logo{
-		background-color: #1F1F1F;
+		padding: 10%;
+		background-image: url("img/carousel.jpg");
+		background-size: cover;
+		background-position: center;
 	}
 	
 	#navbar{
@@ -91,17 +94,6 @@
 			<li class="nav-item"> <a class="nav-link" href="vibe/store.php" style="color: white;">Store</a></li>
 			<li class="nav-item"> <a class="nav-link" href="vibe/booking.php" style="color: white;">Booking</a></li>
 			<li class="nav-item"> <a class="nav-link" href="vibe/contatti.php" style="color: white;">Contatti</a></li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-					Dropdown 
-				</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-			</li>
 		  </ul>
 		</div>  
 	  </div>
@@ -110,7 +102,7 @@
 	<!-- Logo --> 
 	
 	<div id="logo" class="container-fluid" align="center">
-		<img src="img/vibe.svg" width="50%">
+		<img src="img/vibe.png" width="60%" style="opacity: 0.6;">
 	</div>
 	
 	<!-- Events --> 
@@ -120,21 +112,21 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="card">
-				  <img src="img/1.png" class="card-img-top" alt="...">
+				  <img src="img/locandine/loc1.jpg" class="card-img-top" alt="...">
 				  <a href="#" class="btn">Leggi di più</a>
 				</div>
 			</div>
 			
 			<div class="col-md-4">
 				<div class="card">
-				  <img src="img/4.png" class="card-img-top" alt="...">
+				  <img src="img/locandine/loc2.png" class="card-img-top" alt="...">
 				  <a href="#" class="btn">Leggi di più</a>
 				</div>
 			</div>
 			
 			<div class="col-md-4">
 				<div class="card">
-				  <img src="img/2.png" class="card-img-top" alt="...">
+				  <img src="img/locandine/loc3.png" class="card-img-top" alt="...">
 				  <a href="#" class="btn">Leggi di più</a>
 				</div>
 			</div>
@@ -144,11 +136,12 @@
 	<!-- About --> 
 	
 	<div class="container">
+	  <h2>VIBE URBAN LAB</h2>
       <div class="card mb-3">
         <div class="row g-0">
 			
           <div class="col-md-6">
-            <img src="img/3.png" class="img-fluid rounded-start" alt="...">
+            <img src="img/ingresso.jpg" class="img-fluid rounded-start" alt="...">
           </div>
 			
           <div class="col-md-6">
@@ -164,10 +157,10 @@
       </div>
 	</div>
 	
-	<!--  --> 
+	<!-- Breakpoint --> 
 	
 	<div id="dunno" class="container-fluid">
-		<br><br><br><br><br><br>
+		<br><br><br><br>
 	</div>
 	
 	<!-- Collaborators --> 
@@ -177,31 +170,12 @@
 		
       <div class="row">
         <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</small></p>
         </div>
         <div class="col-4">
           <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
           <p class="card-text">Ermes Art Works</small></p>
         </div>
         <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</small></p>
-        </div>
-      </div>
-		
-      <div class="row">
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
         </div>
       </div>
     </div>

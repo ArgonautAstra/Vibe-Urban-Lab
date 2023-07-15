@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Vibe - Urban Lab</title>
+  <title>Vibe - Chi siamo</title>
   <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="icon" href="img/logo.png">
+	<link rel="icon" href="../img/logo.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Bootstrap implement -->
@@ -22,10 +22,6 @@
 		background: radial-gradient(#00002b 49%,#0000 50%) calc(100px/-2) calc(100px/2),repeating-conic-gradient(from 45deg,#000000 0 25%,#0000 0 50%)
         calc(100px/2) calc(100px/2),radial-gradient(#00002b 49%,#0000 50%),radial-gradient(#00002b 49%,#0000 50%) 100px 100px #000000;
 		background-size: calc(2*100px) calc(2*100px);
-	}
-	
-	#logo{
-		background-color: #1F1F1F;
 	}
 	
 	#navbar{
@@ -53,10 +49,30 @@
 		color: white;
 	}
 	
+	.card{
+		background-color: rgba(0,0,0,0.70);
+		color: white;
+	}
+	
+	.card .row{
+		border-top: solid 1px white;
+		border-bottom: solid 1px white;
+	}
+	
 	.col-4{
 		padding-left: 10%;
 		padding-right: 10%;
 		padding-top: 5%;
+	}
+	
+	@media screen and (max-width: 1200px) {
+		#navbar 
+		.container-fluid 
+		.collapse
+		.navbar-nav
+		.nav-item{
+			font-size: 2rem;
+		}
 	}
 		
 </style>
@@ -71,27 +87,16 @@
 		
 	  <div class="container-fluid">
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"> 
-			<span class="navbar-toggler"><img src="img/menu.svg" height="30px" style="filter: invert(1);"></span> 
+			<span class="navbar-toggler d-flex"><img src="../img/menu.svg" height="9%" width="9%" style="filter: invert(1);"></span> 
 		</button>
 		  
 		<div class="collapse navbar-collapse" id="menu">
 		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			<li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a></li>
+			<li class="nav-item"> <a class="nav-link "href="../index.php" style="color: white;">Home</a></li>
 			<li class="nav-item"> <a class="nav-link" href="#" style="color: white;">Chi siamo</a></li>
-			<li class="nav-item"> <a class="nav-link" href="#" style="color: white;">Store</a></li>
-			<li class="nav-item"> <a class="nav-link" href="vibe/booking.php" style="color: white;">Booking</a></li>
-			<li class="nav-item"> <a class="nav-link" href="#" style="color: white;">Contatti</a></li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
-					Dropdown 
-				</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-			</li>
+			<li class="nav-item"> <a class="nav-link" href="store.php" style="color: white;">Store</a></li>
+			<li class="nav-item"> <a class="nav-link" href="booking.php" style="color: white;">Booking</a></li>
+			<li class="nav-item"> <a class="nav-link" href="contatti.php" style="color: white;">Contatti</a></li>
 		  </ul>
 		</div>  
 	  </div>
@@ -100,48 +105,88 @@
 	<!-- Logo --> 
 	
 	<div id="logo" class="container-fluid" align="center">
-		<img src="img/vibe.svg" width="50%">
+		<img src="../img/vibe.png" width="35%">
 	</div>
 	
-	<!-- Events --> 
-	
-	<div class="container">
-	  	<h2>NEWS</h2>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/1.png" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/4.png" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/2.png" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- About --> 
+	<!-- Insegnanti --> 
 	
 	<div class="container">
       <div class="card mb-3">
         <div class="row g-0">
 			
-          <div class="col-md-6">
-            <img src="img/3.png" class="img-fluid rounded-start" alt="...">
+          <div class="col-md-4">
+            <img src="chisiamo/insegnante1.JPG" class="img-fluid" alt="...">
           </div>
 			
-          <div class="col-md-6">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			  </p>
+              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
+            </div>
+          </div>
+        </div>
+		  
+        <div class="row g-0">
+			
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			  </p>
+              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
+            </div>
+          </div>
+			
+          <div class="col-md-4">
+            <img src="chisiamo/insegnante2.JPG" class="img-fluid" alt="...">
+          </div>
+        </div>
+        
+		<div class="row g-0">
+			
+          <div class="col-md-4">
+            <img src="chisiamo/insegnante3.JPG" class="img-fluid" alt="...">
+          </div>
+			
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			  </p>
+              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
+            </div>
+          </div>
+        </div>
+		  
+        <div class="row g-0">
+			
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			  </p>
+              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
+            </div>
+          </div>
+			
+          <div class="col-md-4">
+            <img src="chisiamo/insegnante4.jpg" class="img-fluid" alt="...">
+          </div>
+        </div>
+        
+		<div class="row g-0">
+			
+          <div class="col-md-4">
+            <img src="chisiamo/insegnante5.jpg" class="img-fluid" alt="...">
+          </div>
+			
+          <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -153,48 +198,6 @@
         </div>
       </div>
 	</div>
-	
-	<!--  --> 
-	
-	<div id="dunno" class="container-fluid">
-		<br><br><br><br><br><br>
-	</div>
-	
-	<!-- Collaborators --> 
-	
-	<div class="container text-center">
-	  <h2>COLLABORATORI</h2>
-		
-      <div class="row">
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</small></p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</small></p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</small></p>
-        </div>
-      </div>
-		
-      <div class="row">
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
-        </div>
-        <div class="col-4">
-          <img src="img/eab.png" class="img-fluid rounded-start" alt="...">
-          <p class="card-text">Ermes Art Works</p>
-        </div>
-      </div>
-    </div>
 	
 	<!-- Info --> 
 	
