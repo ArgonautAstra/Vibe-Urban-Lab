@@ -35,6 +35,11 @@
 		background-color: #000000;
 	}
 	
+	.col-md-4 img:hover{
+		transform: scale(1.05);
+		transition: 0.5s;
+	}
+	
 	#dunno{
 		background-color: #FFFFFF;
 	}
@@ -105,30 +110,21 @@
 		<img src="img/vibe.png" width="60%" style="opacity: 0.6;">
 	</div>
 	
-	<!-- Events --> 
+	<!-- Eventi --> 
 	
-	<div class="container">
+	<div id="eventi" class="container">
 	  	<h2>NEWS</h2>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/locandine/loc1.jpg" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
+				<a href="#" class="btn"><img src="img/locandine/loc1.jpg" class="card-img-top" alt="..."></a>
 			</div>
 			
 			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/locandine/loc2.png" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
+				<a href="#" class="btn"><img src="img/locandine/loc2.png" class="card-img-top" alt="..."></a>
 			</div>
 			
 			<div class="col-md-4">
-				<div class="card">
-				  <img src="img/locandine/loc3.png" class="card-img-top" alt="...">
-				  <a href="#" class="btn">Leggi di più</a>
-				</div>
+				<a href="#" class="btn"><img src="img/locandine/loc3.png" class="card-img-top" alt="..."></a>
 			</div>
 		</div>
 	</div>
@@ -141,7 +137,7 @@
         <div class="row g-0">
 			
           <div class="col-md-6">
-            <img src="img/ingresso.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="img/ingresso.jpg" class="img-fluid" alt="...">
           </div>
 			
           <div class="col-md-6">
@@ -152,6 +148,25 @@
 			  </p>
               <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
             </div>
+          </div>
+        </div>
+      </div>
+		
+      <div class="card mb-3">  
+        <div class="row g-0">
+			
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			  </p>
+              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
+            </div>
+          </div>
+			
+          <div class="col-md-6">
+            <img src="img/ingresso2.jpg" class="img-fluid" alt="...">
           </div>
         </div>
       </div>

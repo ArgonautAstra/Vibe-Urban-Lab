@@ -52,6 +52,7 @@
 	.card{
 		background-color: rgba(0,0,0,0.70);
 		color: white;
+		width: 80%;
 	}
 	
 	.card .row{
@@ -110,8 +111,8 @@
 	
 	<!-- Insegnanti --> 
 	
-	<div class="container">
-      <div class="card mb-3">
+	<div class="container" align="center">
+      <div class="card mb-3" align="left">
         <div class="row g-0">
 			
           <div class="col-md-4">
@@ -120,11 +121,12 @@
 			
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Aurelio Billiteri</h5>
               <p class="card-text">
-				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+				  Ballerino di breaking dal 2009, Ermes si distingue nella sua danza - come per le sue opere d'arte (@ermesartworks) che potete trovare anche al lab - per il suo stile originale e creativo.<br>
+				  Dopo una serie di vittorie a contest siciliani, partecipa tutt'ora attivamente ai contest nazionali e internazionali, consentendogli di essere sempre aggiornato sulla scena della cultura hip hop.<br>
+				  La sua crew, i Bumrush, è ancora operativa in Spagna, Portogallo e Francia.
 			  </p>
-              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
             </div>
           </div>
         </div>
@@ -133,11 +135,10 @@
 			
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Zeila Spinelli</h5>
               <p class="card-text">
-				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+				  Inizia a ballare all'età di quasi undici anni e fino al 2018 si è sempre dedicata al coreografico, studiando alla Multiverse Arts & Dance Studios con numerosi insegnanti italiani e stranieri, partecipando alle gare e cercando di apprendere da numerosi stili: dall'hip hop, al L.A. style, heels, al jazz funk, waacking, voguing, breaking e per qualche anno moderno e contemporaneo. Dopo questi studi effettuati nei vari campi della danza, ha trovato la sua dimensione nella cultura dell'house dance per cercare un'espressione del movimento più personale. Attualmente partecipa alle battle in diverse parti d'Italia e a spettacoli teatrali.
 			  </p>
-              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
             </div>
           </div>
 			
@@ -154,11 +155,12 @@
 			
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Gugliemo Misia</h5>
               <p class="card-text">
-				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+				  Ballerino di hip hop dal 2013, il suo stile nasce “dalla strada” ed essendosi approcciato quasi subito al freestyle, ha da sempre partecipato alle battle della scena siciliana vincendone alcune, tra cui due volte lo Shadow In The Circle e l'ultima edizione del Give Me Ten di Termini Imerese.<br>
+				  Tutt'ora partecipa a battle nazionali e internazionali cercando di superare sempre sé stesso e di far crescere la cultura hip hop condividendola con chiunque.<br>
+				  Il suo amore per la danza è tale che lo troverete ogni giorno in sala, non solo ballando il suo ma anche apprendendo dagli altri stili.
 			  </p>
-              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
             </div>
           </div>
         </div>
@@ -167,11 +169,12 @@
 			
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Mark Jason Lagutan</h5>
               <p class="card-text">
-				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+				  Inizia a ballare nel 2014 nella crew dei Pasquad, continuando con i 3 Stars e infine con i Wolf maturando e appassionandosi così ad uno stile più “los angelesco”, basato sulla libertà di movimento e ricerca del proprio groove. Inoltre non è mai mancata la sua presenza ai cypher di strada palermitani, perciò sa bene cosa significa ballare per condividere e divertirsi.<br>
+				  Questa flessibilità gli ha consentito di partecipare - e vincere - sia un duo coreografico sia un 2vs2 freestyle con l'inseparabile Snoop.<br>
+				  Ancora adesso partecipa alle lezioni di altri insegnanti aggiornandosi, ma anche per il semplice piacere di circondare la propria vita di danza e scoperta.
 			  </p>
-              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
             </div>
           </div>
 			
@@ -179,23 +182,7 @@
             <img src="chisiamo/insegnante4.jpg" class="img-fluid" alt="...">
           </div>
         </div>
-        
-		<div class="row g-0">
-			
-          <div class="col-md-4">
-            <img src="chisiamo/insegnante5.jpg" class="img-fluid" alt="...">
-          </div>
-			
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-				  This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-			  </p>
-              <p class="card-text"><small class="text-body-secondary">Cit me medesimo fantastico</small></p>
-            </div>
-          </div>
-        </div>
+
       </div>
 	</div>
 	
